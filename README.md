@@ -22,39 +22,40 @@ cd VersionControlProject
 ## **Workflow Guide**
 
 ### **Creating a Feature Branch**
-Start by creating a new branch for any feature or bug fix:
+Start by creating a new branch for any **feature** or **bug** fix:
 git checkout -b feature/<feature-name>
-Replace <feature-name> with a meaningful branch name, like login or signup.
+Replace <feature-name> with a meaningful branch name, like **login** or **signup**.
 
 ### **Making Changes**
-Add and commit your changes:
+Add and commit your **changes**:
 git add <file-name>
 git commit -m "Add <feature-description>"
 
 ### **Pushing Changes**
-Push the branch to GitHub:
+Push the **branch** to **GitHub**:
 git push origin feature/<feature-name>
 
 ### **Opening a Pull Request (PR)**
-Go to your GitHub repository.
-Open a pull request (PR) from feature/<feature-name> to main.
-Add a title and description to the PR.
-Request a review from a collaborator.
+Go to your **GitHub** repository.
+Open a **pull request (PR)** from feature/<feature-name> to **main**.
+Add a **title** and **description** to the **PR**.
+Request a **review** from a collaborator.
 
 ### **Code Review and Merging**
-Reviewers provide feedback and approve changes.
-After approval, merge the PR into main and delete the feature branch.
+**Reviewers** provide feedback and approve **changes**.
+After **approval**, merge the **PR** into **main** and delete the **feature branch**.
 
 ### **Example Files**
 This project contains the following example files:
-login.py: Implements the login functionality.
-signup.py: Implements the signup functionality.
+**login.py**: Implements the **login** functionality.
+**signup.py**: Implements the **signup** functionality.
 
 ### **Example Usage**
-After cloning, you can test each feature by running the individual Python scripts:
-python login.py
-python signup.py
-Each script will output a message indicating the feature is active.
+After cloning, you can test each **feature** by running the individual **Python** scripts:
+python **login.py**
+python **signup.py**
+Each script will output a message indicating the **feature** is active.
 
 ### **Contributing**
-Feel free to fork the repository and submit pull requests. Ensure each feature or bug fix is developed on its own branch.
+Feel free to **fork** the repository and submit **pull requests**. Ensure each **feature** or **bug** fix is developed on its own **branch**.
+
