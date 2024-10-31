@@ -19,42 +19,42 @@ To get started, clone the repository to your local machine:
 git clone <your-repo-URL>
 cd VersionControlProject
 
-** Workflow Guide **
+## **Workflow Guide**
 
-Creating a Feature Branch
+### **Creating a Feature Branch**
 Start by creating a new branch for any feature or bug fix:
 git checkout -b feature/<feature-name>
 Replace <feature-name> with a meaningful branch name, like login or signup.
 
-Making Changes
+### **Making Changes**
 Add and commit your changes:
 git add <file-name>
 git commit -m "Add <feature-description>"
 
-Pushing Changes
+### **Pushing Changes**
 Push the branch to GitHub:
 git push origin feature/<feature-name>
 
-Opening a Pull Request (PR)
+### **Opening a Pull Request (PR)**
 Go to your GitHub repository.
 Open a pull request (PR) from feature/<feature-name> to main.
 Add a title and description to the PR.
 Request a review from a collaborator.
 
-Code Review and Merging
+### **Code Review and Merging**
 Reviewers provide feedback and approve changes.
 After approval, merge the PR into main and delete the feature branch.
 
-Example Files
+### **Example Files**
 This project contains the following example files:
 login.py: Implements the login functionality.
 signup.py: Implements the signup functionality.
 
-Example Usage
+### **Example Usage**
 After cloning, you can test each feature by running the individual Python scripts:
 python login.py
 python signup.py
 Each script will output a message indicating the feature is active.
 
-Contributing
+### **Contributing**
 Feel free to fork the repository and submit pull requests. Ensure each feature or bug fix is developed on its own branch.
